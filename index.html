@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Emperor Penguin Facts</title>
+  <style>
+    :root {
+      --mocha-900: #3b2f2f;
+      --mocha-700: #6b4f3b;
+      --mocha-500: #a67b5b;
+      --mocha-300: #d9c6b6;
+      --mocha-100: #fbf6f3;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 20px;
+      background-color: var(--mocha-100);
+      color: var(--mocha-900);
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      background-color: var(--mocha-700);
+      color: white;
+      padding: 20px 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      width: 100%;
+      max-width: 1200px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .content-container {
+      display: flex;
+      max-width: 1200px;
+      width: 100%;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .content-container img {
+      width: 280px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      flex-shrink: 0;
+      object-fit: cover;
+      height: auto;
+    }
+
+    .description {
+      background-color: var(--mocha-300);
+      padding: 25px 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      flex: 1 1 600px;
+      min-width: 320px;
+      font-size: 1.15em;
+      text-align: justify;
+    }
+
+    table {
+      width: 100%;
+      max-width: 1200px;
+      margin-top: 40px;
+      border-collapse: collapse;
+      background-color: var(--mocha-300);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      font-size: 1.05em;
+    }
+
+    caption {
+      caption-side: top;
+      font-weight: bold;
+      font-size: 1.3em;
+      color: var(--mocha-900);
+      margin-bottom: 15px;
+    }
+
+    th,
+    td {
+      padding: 14px 18px;
+      border: 1px solid var(--mocha-500);
+      text-align: left;
+    }
+
+    th {
+      background-color: var(--mocha-700);
+      color: white;
+      font-weight: 600;
+    }
+
+    tr:nth-child(even) {
+      background-color: var(--mocha-100);
+    }
+
+    /* ریسپانسیو */
+    @media (max-width: 900px) {
+      .content-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .content-container img {
+        width: 90%;
+        max-width: 400px;
+        margin-bottom: 20px;
+      }
+
+      .description {
+        width: 90%;
+        min-width: auto;
+        font-size: 1em;
+      }
+
+      table {
+        width: 95%;
+        font-size: 0.95em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Emperor Penguin</h1>
+
+  <div class="content-container">
+    <img src="1200x900.jpg" alt="Emperor Penguin Left" />
+    <p class="description">
+      The Emperor Penguin (<em>Aptenodytes forsteri</em>) is the largest and most iconic of all penguin species. Found only in Antarctica, these birds are perfectly adapted to survive in one of the harshest environments on Earth. Standing up to 120 centimeters (about four feet) tall and weighing as much as 40 kilograms, Emperor Penguins are powerful swimmers capable of diving more than 500 meters deep in search of fish, squid, and krill. Their black-and-white feathers provide excellent camouflage while swimming — black blends with the dark ocean depths from above, and white blends with the bright surface from below.
+      <br /><br />
+      Emperor Penguins are known for their remarkable breeding behavior. During the freezing Antarctic winter, males incubate the eggs by balancing them on their feet and covering them with a warm pouch of skin, while females travel long distances to the sea to feed. When the mothers return, they regurgitate food for their chicks, and the males — who have fasted for more than two months — finally get to eat.
+      <br /><br />
+      Unfortunately, climate change and melting sea ice threaten their survival. The loss of ice reduces their breeding grounds and decreases the availability of fish and krill, which are essential to their diet. Conservation efforts and global awareness are critical to protect these magnificent birds — true symbols of endurance, cooperation, and life in the extreme.
+    </p>
+    <img src="900.jpeg" alt="Emperor Penguin Right" />
+  </div>
+
+  <table>
+    <caption>Quick Facts About the Emperor Penguin</caption>
+    <tr>
+      <th>Feature</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>Scientific Name</td>
+      <td><em>Aptenodytes forsteri</em></td>
+    </tr>
+    <tr>
+      <td>Appearance</td>
+      <td>Adults have a white stomach and a black head, back, tail and wings. They also have yellowy-gold markings on the side of their head and neck.</td>
+    </tr>
+    <tr>
+      <td>Habitat</td>
+      <td>Lives in Antarctica, mainly on sea ice near the ocean where it breeds and hunts for food.</td>
+    </tr>
+    <tr>
+      <td>Population</td>
+      <td>About 595,000 adult birds.</td>
+    </tr>
+    <tr>
+      <td>Food</td>
+      <td>Main foods are fish, squid, and krill found in the icy waters of Antarctica.</td>
+    </tr>
+    <tr>
+      <td>Abilities</td>
+      <td>It can dive over 500 meters deep, hold its breath for up to 20 minutes, and survive extreme Antarctic cold by huddling together for warmth.</td>
+    </tr>
+    <tr>
+      <td>Special Characteristics</td>
+      <td>The Emperor Penguin is the largest penguin species, specially adapted to survive and breed in the freezing Antarctic winter.</td>
+    </tr>
+    <tr>
+      <td>Reason Why It Is in Danger</td>
+      <td>Melting sea ice from climate change destroys its breeding and feeding areas.</td>
+    </tr>
+  </table>
+</body>
+</html>
